@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My dice roll Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <style>
+body {
+  background-image: url("IMG_0022.jpg");
+  background-color: lightgray;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  }
+</style>
+  <body>
+
+    <h1> Roll The Dice Game</h1>
+    <img src="dice6.png" alt="Dice face of first player" id="player1">
+    <img src="dice6.png" alt="Dice image of second player" id="player2">
+<br />
+    <button type="button" onclick="diceGame(name1,name2)" ><strong>Click To ROLL</strong> </button>
+
+<script src="index.js"></script>
+  </body>
+  <footer>
+    <h6>Made by Master Himanshu Raj</h6>
+  </footer>
+  <script>
+  var name1=prompt("Enter player 1 name");
+  var name2=prompt("Enter player 2 name");
+
+  </script>
+</html>

@@ -1,0 +1,28 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: black;
+}
+img {
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+
+}
+footer {
+  text-align: center;
+  font-size :40px;
+  background-color: white;
+  color: purple;
+}
+button
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  background-color: DodgerBlue;
+  color :white;
+}
